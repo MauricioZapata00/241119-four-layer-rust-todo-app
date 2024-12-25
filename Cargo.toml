@@ -1,0 +1,12 @@
+[package]
+name = "four-layer-rust-todo-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.1", features = ["json"] }
+mongodb = { version = "3.1.0", features = ["dns-resolver"] }
+serde = "1.0.215"
+tokio = { version = "1.41.1", features = ["full"] }
+uuid = { version = "1.11.0", features = ["v4"] }
+futures = "0.3.31"
